@@ -1,0 +1,54 @@
+body {
+    background-color: #deffc7;
+}
+
+
+header {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+main {
+    background-color: #b3de9f;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+#altura, #peso {
+    background-color: #deffc7;
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+
+h1 {
+    font-size: 30pt;
+}
+
+
+label {
+    font-size: larger;
+}
+
+
+button {
+    background-color: #269d1f;
+    height: 50px;
+    width: 150px;
+    font-size: larger;
+    border-radius: 10px;
+    color: rgb(218, 215, 215);
+}
+
+
+button:hover {
+    scale: 1.01;
+}
